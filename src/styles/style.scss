@@ -1,0 +1,79 @@
+@import 'config';
+@import 'profileView';
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+  background-color: $bg-color;
+}
+
+h2 {
+  color: $dark-blue;
+  background-color: inherit;
+  font-size: 1em;
+  font-weight: 700;
+  margin: 2em 0;
+}
+
+h4 {
+  color: $dark-blue;
+  background-color: inherit;
+  font-size: 1em;
+  font-weight: 700;
+  margin: 1em 0;
+}
+
+h5 {
+  color: $dark-blue;
+  background-color: inherit;
+  font-size: 1em;
+  font-weight: 600;
+  margin: 1em 0;
+}
+
+p {
+  color: $dark-blue;
+  background-color: inherit;
+  font-size: 0.8em;
+}
+
+.container {
+  max-width: 85vw;
+}
+
+.icon,
+.row,
+.col,
+.col-75,
+.col-25,
+span {
+  background-color: inherit;
+}
+
+.stars {
+  color: $yellow;
+  background-color: inherit;
+  font-weight: 500;
+}
+
+.error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20vh;
+}
+
+// TABLET
+@media (min-width: 426px) {
+  .container {
+    max-width: 85vw;
+  }
+}
+
+// DESKTOP
+@media (min-width: 769px) {
+  .container {
+    max-width: 65vw;
+  }
+}

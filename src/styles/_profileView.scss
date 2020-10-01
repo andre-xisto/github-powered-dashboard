@@ -1,0 +1,27 @@
+@import 'config';
+
+.profileView {
+  img {
+    width: 10em;
+    height: 10em;
+    border-radius: 100%;
+  }
+
+  .repo {
+    padding: 1em 1em;
+    margin: 1em;
+    box-shadow: 0 0.25em 1.5em -0.5em hsla(220, 30%, 80%, 0.5);
+  }
+
+  h4 {
+    margin-bottom: 0;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .stars {
+    margin-bottom: 0.5em;
+  }
+}

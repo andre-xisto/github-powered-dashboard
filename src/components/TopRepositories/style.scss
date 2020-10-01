@@ -1,0 +1,33 @@
+@import './../../styles/config';
+
+.repoCard {
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  //justify-content: space-around;
+  min-height: 16em;
+  max-width: 90%;
+  border-radius: 3px;
+  text-align: center;
+  padding: 1em 1em;
+  margin: 0 auto 1.5em auto;
+  border-top: 0.3em solid #438ee2;
+  box-shadow: 0 0.5em 1.5em -0.5em grey;
+  a {
+    text-decoration: none;
+  }
+}
+
+// TABLET
+@media (min-width: 426px) {
+}
+
+// DESKTOP
+@media (min-width: 769px) {
+  .repoCard {
+    min-height: 16em;
+  }
+  .col-sm {
+    padding: 8px;
+  }
+}
