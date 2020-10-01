@@ -79,7 +79,7 @@ class ActiveUsers extends Component {
   render() {
     return (
       <div>
-        <h2>Active Users</h2>
+        <h2>Most Active Users</h2>
         <div className="row">
           {this.state.loaded &&
             this.state.activeUsers.map(user => (
