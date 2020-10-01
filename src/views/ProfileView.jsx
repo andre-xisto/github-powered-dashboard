@@ -13,7 +13,7 @@ class ProfileView extends Component {
   }
 
   componentDidMount() {
-    const login = this.props.match.params.login;
+    // const login = this.props.match.params.login;
     const repos = this.props.location.state.repos;
     const userDetails = this.props.location.state.userDetails;
 

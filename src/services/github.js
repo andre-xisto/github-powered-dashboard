@@ -4,8 +4,8 @@ const api = axios.create({
   baseURL: 'https://api.github.com'
 });
 
-const clientID = `client_id=${process.env.REACT_APP_GITHUB_CLIENT_ID}`;
-const clientSecret = `&client_secret=${process.env.REACT_APP_GITHUB_CLIENT_SECRET}`;
+// const clientID = `client_id=${process.env.REACT_APP_GITHUB_CLIENT_ID}`;
+// const clientSecret = `&client_secret=${process.env.REACT_APP_GITHUB_CLIENT_SECRET}`;
 
 const today = new Date();
 

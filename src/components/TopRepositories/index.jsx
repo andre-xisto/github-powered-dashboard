@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import { loadTopRepositories } from './../../services/github';
 import { StarIcon } from '@primer/octicons-react';
 
